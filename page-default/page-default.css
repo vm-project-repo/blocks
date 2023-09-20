@@ -1,0 +1,142 @@
+
+@media (min-width: 1024px) {
+
+    .page-default-hero {
+        background-color: #eff3f4;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .page-default-hero-title {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 280px 20px 40px 20px;
+    }
+
+    .page-default-hero-title-text {
+        font-family: 'HelveticaInseratCyr Upright';
+        font-weight: 700;
+        font-size: 70px;
+        letter-spacing: 1px;
+        color: #8f70a2;
+        line-height: 1.4;
+        text-transform: uppercase;
+    }
+
+    .page-default-content {
+        background-color: #eff3f4;
+        padding-bottom: 60px;
+    }
+
+    .page-default-content-inner {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.8;
+        letter-spacing: 1px;
+        color: rgb(64, 64, 64);
+
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .page-default-hero {
+        background-color: #eff3f4;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .page-default-hero-title {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 160px 20px 40px 20px;
+    }
+
+    .page-default-hero-title-text {
+        font-family: 'HelveticaInseratCyr Upright';
+        font-weight: 700;
+        font-size: 70px;
+        letter-spacing: 1px;
+        color: #8f70a2;
+        line-height: 1.4;
+        text-transform: uppercase;
+    }
+
+    .page-default-content {
+        background-color: #eff3f4;
+        padding-bottom: 60px;
+    }
+
+    .page-default-content-inner {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.8;
+        letter-spacing: 1px;
+        color: rgb(64, 64, 64);
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    .page-default-hero {
+        background-color: #eff3f4;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .page-default-hero-title {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 60px 20px 40px 20px;
+    }
+
+    .page-default-hero-title-text {
+        font-family: 'HelveticaInseratCyr Upright';
+        font-weight: 700;
+        font-size: 44px;
+        letter-spacing: 1px;
+        color: #8f70a2;
+        line-height: 1.4;
+        text-transform: uppercase;
+    }
+
+    .page-default-content {
+        background-color: #eff3f4;
+        padding-bottom: 60px;
+    }
+
+    .page-default-content-inner {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.8;
+        letter-spacing: 1px;
+        color: rgb(64, 64, 64);
+    }
+
+}

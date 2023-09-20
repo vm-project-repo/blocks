@@ -1,0 +1,530 @@
+
+@media (min-width: 1240px) {
+
+    .frontpage-hero {
+        position: relative;
+        display: flex;
+        padding: 0 20px;
+    }
+
+    .frontpage-hero::after {
+        content:"";
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:70%;
+        right: 0;
+        background: linear-gradient(to top, #00A79D, #34B680);
+        z-index: -1;
+    }
+
+    .frontpage-hero .frontpage-hero-part:nth-child(1) {
+        margin-left: auto;
+        flex: 1 1 auto;
+        width: 100%;
+        max-width: 770px;
+        display: flex;
+        align-items: center;
+    }
+
+    .frontpage-hero-part-text {
+        min-height: 500px;
+        padding: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .frontpage-hero-part-name {
+        font-family: 'Gotham Pro';
+        font-size: calc(90px + 14 * (100vw - 320px) / 890);
+        line-height: 0.9;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #00A79D;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .frontpage-hero-part-area {
+        font-family: 'Gotham Pro';
+        font-size: calc(22px + 4 * (100vw - 320px) / 890);
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+        text-transform: lowercase;
+        font-weight: 400;
+        color: #233748;
+        margin: 0;
+        max-width: 320px;
+    }
+
+    .frontpage-hero-part-slogan {
+        font-size: 20px;
+        max-width: 490px;
+        font-weight: 300;
+        font-family: 'Gotham Pro';
+        letter-spacing: 1px;
+        text-transform: lowercase;
+        line-height: 1.6;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+
+    .frontpage-hero .frontpage-hero-part:nth-child(2) {
+        flex: 1 1 auto;
+        margin-right: auto;
+        position: relative;
+        width: 100%;
+        max-width: 770px;
+        height: 100vh;
+        max-height: 860px;
+        display: flex;
+    }
+
+    .frontpage-hero-part-inner-left {
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .frontpage-hero-part-border-left {
+        flex: 1 1 auto;
+        align-self: center;
+        min-height: 460px;
+        border-top: 25px solid transparent;
+        border-left: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+    }
+
+    .frontpage-hero-part-inner-rigth {
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        align-items: center;
+    }
+
+    .frontpage-hero-part-border-rigth {
+        flex: 1 1 auto;
+        align-self: center;
+        min-height: 460px;
+        border-top: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+    }
+
+
+    .frontpage-hero .frontpage-hero-part:nth-child(2) img {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        top: auto;
+        right: auto;
+        transform: translateX(-50%);
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+
+    .frontpage-hero {
+        position: relative;
+        display: flex;
+        padding: 0 20px;
+    }
+
+    .frontpage-hero::after {
+        content:"";
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:70%;
+        right: 0;
+        background: linear-gradient(to top, #00A79D, #34B680);
+        z-index: -1;
+    }
+
+    .frontpage-hero .frontpage-hero-part:nth-child(1) {
+        margin-left: auto;
+        flex: 1 1 auto;
+        width: 100%;
+        max-width: 770px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .frontpage-hero-part-text {
+        flex: 1 1 auto;
+        padding: 100px 20px 30px 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .frontpage-hero-part-name {
+        font-family: 'Gotham Pro';
+        font-size: calc(90px + 14 * (100vw - 320px) / 890);
+        line-height: 0.9;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #00A79D;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .frontpage-hero-part-area {
+        font-family: 'Gotham Pro';
+        font-size: calc(22px + 4 * (100vw - 320px) / 890);
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+        text-transform: lowercase;
+        font-weight: 400;
+        color: #233748;
+        margin: 0;
+        max-width: 320px;
+    }
+
+    .frontpage-hero-part-slogan {
+        font-size: 20px;
+        max-width: 490px;
+        font-weight: 300;
+        font-family: 'Gotham Pro';
+        letter-spacing: 1px;
+        text-transform: lowercase;
+        line-height: 1.6;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+
+    .frontpage-hero .frontpage-hero-part:nth-child(2) {
+        flex: 1 1 auto;
+        margin-right: auto;
+        position: relative;
+        width: 100%;
+        max-width: 770px;
+        height: 100vh;
+        max-height: 660px;
+        display: flex;
+    }
+
+    .frontpage-hero-part-inner-left {
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 100px 0 30px 0;
+    }
+
+    .frontpage-hero-part-border-left {
+        flex: 1 1 auto;
+        border-top: 25px solid transparent;
+        border-left: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+    }
+
+    .frontpage-hero-part-inner-rigth {
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 100px 0 30px 0;
+    }
+
+    .frontpage-hero-part-border-rigth {
+        flex: 1 1 auto;
+        border-top: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+    }
+
+
+    .frontpage-hero .frontpage-hero-part:nth-child(2) img {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        top: auto;
+        right: auto;
+        transform: translateX(-50%);
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .frontpage-hero {
+        position: relative;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .frontpage-hero::after {
+        content:"";
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:50%;
+        right: 0;
+        background: linear-gradient(to top, #00A79D, #34B680);
+        z-index: -1;
+    }
+
+    .frontpage-hero .frontpage-hero-part:nth-child(1) {
+        order:2;
+        flex: 1 1 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #fff;
+    }
+
+    .frontpage-hero-part-text {
+        flex: 1 1 auto;
+        max-width: 520px;
+        margin: 0 auto;
+        padding: 60px 20px 30px 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .frontpage-hero-part-name {
+        font-family: 'Gotham Pro';
+        font-size: calc(90px + 14 * (100vw - 320px) / 890);
+        line-height: 0.9;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #00A79D;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .frontpage-hero-part-area {
+        font-family: 'Gotham Pro';
+        font-size: calc(22px + 4 * (100vw - 320px) / 890);
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+        text-transform: lowercase;
+        font-weight: 400;
+        color: #233748;
+        margin: 0;
+        max-width: 320px;
+    }
+
+    .frontpage-hero-part-slogan {
+        font-size: 20px;
+        max-width: 490px;
+        font-weight: 300;
+        font-family: 'Gotham Pro';
+        letter-spacing: 1px;
+        text-transform: lowercase;
+        line-height: 1.6;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+
+    .frontpage-hero .frontpage-hero-part:nth-child(2) {
+        order:1;
+        flex: 1 1 auto;
+        margin-right: auto;
+        position: relative;
+        width: 100%;
+        max-width: 560px;
+        margin: 0 auto;
+        height: 100vh;
+        max-height: 600px;
+        display: flex;
+    }
+
+    .frontpage-hero-part-inner-left {
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 100px 0 30px 0;
+    }
+
+    .frontpage-hero-part-border-left {
+        flex: 1 1 auto;
+        border-top: 25px solid transparent;
+        border-left: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+    }
+
+    .frontpage-hero-part-inner-rigth {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 100px 0 30px 0;
+    }
+
+    .frontpage-hero-part-border-rigth {
+        flex: 1 1 auto;
+        border-top: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+    }
+
+
+    .frontpage-hero .frontpage-hero-part:nth-child(2) img {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        top: auto;
+        right: auto;
+        transform: translateX(-50%);
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    .frontpage-hero {
+        position: relative;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .frontpage-hero::after {
+        content:"";
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:50%;
+        right: 0;
+        background: linear-gradient(to top, #00A79D, #34B680);
+        z-index: -1;
+    }
+
+    .frontpage-hero .frontpage-hero-part:nth-child(1) {
+        order:2;
+        flex: 1 1 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #fff;
+    }
+
+    .frontpage-hero-part-text {
+        flex: 1 1 auto;
+        max-width: 520px;
+        margin: 0 auto;
+        padding: 40px 20px 40px 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .frontpage-hero-part-name {
+        font-family: 'Gotham Pro';
+        font-size: calc(50px + 24*(100vw - 320px)/890);
+        line-height: 1.2;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #00a79d;
+        font-weight: 900;
+        margin: 0;
+    }
+
+    .frontpage-hero-part-area {
+        font-family: 'Gotham Pro';
+        font-size: calc(22px + 4 * (100vw - 320px) / 890);
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+        text-transform: lowercase;
+        font-weight: 400;
+        color: #233748;
+        margin: 0;
+        max-width: 320px;
+    }
+
+    .frontpage-hero-part-slogan {
+        font-size: 18px;
+        max-width: 490px;
+        font-weight: 300;
+        font-family: 'Gotham Pro';
+        letter-spacing: 1px;
+        text-transform: lowercase;
+        line-height: 1.6;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+
+    .frontpage-hero .frontpage-hero-part:nth-child(2) {
+        order:1;
+        flex: 1 1 auto;
+        margin-right: auto;
+        position: relative;
+        width: 100%;
+        max-width: 560px;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 80px;
+    }
+
+    .frontpage-hero-part-inner-left {
+        position: absolute;
+        background-color: #fff;
+        top:0;
+        bottom: 0;
+        right: 50%;
+        left:0;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 120px 0 30px 0;
+    }
+
+    .frontpage-hero-part-border-left {
+        position: relative;
+        flex: 1 1 auto;
+        border-top: 25px solid transparent;
+        border-left: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        padding-top: 40px;
+        margin-left: 20px;
+    }
+
+    .frontpage-hero-part-inner-rigth {
+        position: absolute;
+        top:0;
+        bottom: 0;
+        right: 0;
+        left:50%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 120px 0 30px 0;
+    }
+
+    .frontpage-hero-part-border-rigth {
+        position: relative;
+        flex: 1 1 auto;
+        border-top: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        padding-top: 40px;
+        margin-right: 20px;
+    }
+
+
+    .frontpage-hero .frontpage-hero-part:nth-child(2) img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+}
